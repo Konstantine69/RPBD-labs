@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|d:\\study\\datbas2\\lab2\\stroitelpodryadchik\\stroitelpodryadchik\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\data\\stroitelpodryadchikcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\data\\stroitelpodryadchikcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\models\\objectwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\models\\objectwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\models\\objectmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\models\\objectmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\models\\constructionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\models\\constructionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\models\\worktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\models\\worktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\models\\viewfullconstructionobjectinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\models\\viewfullconstructionobjectinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\models\\viewconstructionobjectsworktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\models\\viewconstructionobjectsworktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\models\\viewconstructionobjectsmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\models\\viewconstructionobjectsmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\stroitelpodryadchik\\stroitelpodryadchik.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{516E87CC-41DF-4B46-9D6C-E072F1D4BE47}|StroitelPodryadchik\\StroitelPodryadchik.csproj|solutionrelative:stroitelpodryadchik\\stroitelpodryadchik.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 2205,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Program.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Program.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Program.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Program.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAgwGIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:58:06.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkType.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\WorkType.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Models\\WorkType.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\WorkType.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Models\\WorkType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:57:44.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StroitelPodryadchikContext.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Data\\StroitelPodryadchikContext.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Data\\StroitelPodryadchikContext.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Data\\StroitelPodryadchikContext.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Data\\StroitelPodryadchikContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:54:28.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewConstructionObjectsWorkType.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ViewConstructionObjectsWorkType.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Models\\ViewConstructionObjectsWorkType.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ViewConstructionObjectsWorkType.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Models\\ViewConstructionObjectsWorkType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:57:44.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewFullConstructionObjectInfo.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ViewFullConstructionObjectInfo.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Models\\ViewFullConstructionObjectInfo.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ViewFullConstructionObjectInfo.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Models\\ViewFullConstructionObjectInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:04:27.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewConstructionObjectsMaterial.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ViewConstructionObjectsMaterial.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Models\\ViewConstructionObjectsMaterial.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ViewConstructionObjectsMaterial.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Models\\ViewConstructionObjectsMaterial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:57:44.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StroitelPodryadchik.csproj",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\StroitelPodryadchik.csproj",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\StroitelPodryadchik.csproj",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\StroitelPodryadchik.csproj",
+              "RelativeToolTip": "StroitelPodryadchik\\StroitelPodryadchik.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-08T08:56:23.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 892,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ObjectMaterial.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ObjectMaterial.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Models\\ObjectMaterial.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ObjectMaterial.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Models\\ObjectMaterial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:57:44.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObjectWork.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ObjectWork.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Models\\ObjectWork.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ObjectWork.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Models\\ObjectWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:57:04.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConstructionObject.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ConstructionObject.cs",
+              "RelativeDocumentMoniker": "StroitelPodryadchik\\Models\\ConstructionObject.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab2\\StroitelPodryadchik\\StroitelPodryadchik\\Models\\ConstructionObject.cs",
+              "RelativeToolTip": "StroitelPodryadchik\\Models\\ConstructionObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:57:44.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
