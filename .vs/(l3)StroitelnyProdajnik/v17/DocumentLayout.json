@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{625BA5EE-1B17-44C3-90F6-0B8A4B7C9C1A}|StroitelnyProdajnik\\StroitelnyProdajnik.csproj|d:\\study\\datbas2\\lab3\\stroitelnyprodajnik\\stroitelnyprodajnik\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{625BA5EE-1B17-44C3-90F6-0B8A4B7C9C1A}|StroitelnyProdajnik\\StroitelnyProdajnik.csproj|solutionrelative:stroitelnyprodajnik\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BA5EE-1B17-44C3-90F6-0B8A4B7C9C1A}|StroitelnyProdajnik\\StroitelnyProdajnik.csproj|d:\\study\\datbas2\\lab3\\stroitelnyprodajnik\\stroitelnyprodajnik\\service\\cacheddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{625BA5EE-1B17-44C3-90F6-0B8A4B7C9C1A}|StroitelnyProdajnik\\StroitelnyProdajnik.csproj|solutionrelative:stroitelnyprodajnik\\service\\cacheddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BA5EE-1B17-44C3-90F6-0B8A4B7C9C1A}|StroitelnyProdajnik\\StroitelnyProdajnik.csproj|d:\\study\\datbas2\\lab3\\stroitelnyprodajnik\\stroitelnyprodajnik\\models\\constructionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{625BA5EE-1B17-44C3-90F6-0B8A4B7C9C1A}|StroitelnyProdajnik\\StroitelnyProdajnik.csproj|solutionrelative:stroitelnyprodajnik\\models\\constructionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625BA5EE-1B17-44C3-90F6-0B8A4B7C9C1A}|StroitelnyProdajnik\\StroitelnyProdajnik.csproj|d:\\study\\datbas2\\lab3\\stroitelnyprodajnik\\stroitelnyprodajnik\\data\\builderpodcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{625BA5EE-1B17-44C3-90F6-0B8A4B7C9C1A}|StroitelnyProdajnik\\StroitelnyProdajnik.csproj|solutionrelative:stroitelnyprodajnik\\data\\builderpodcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 2205,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConstructionObject.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\StroitelnyProdajnik\\Models\\ConstructionObject.cs",
+              "RelativeDocumentMoniker": "StroitelnyProdajnik\\Models\\ConstructionObject.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\StroitelnyProdajnik\\Models\\ConstructionObject.cs",
+              "RelativeToolTip": "StroitelnyProdajnik\\Models\\ConstructionObject.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvx8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:23:04.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CachedDataService.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\StroitelnyProdajnik\\Service\\CachedDataService.cs",
+              "RelativeDocumentMoniker": "StroitelnyProdajnik\\Service\\CachedDataService.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\StroitelnyProdajnik\\Service\\CachedDataService.cs",
+              "RelativeToolTip": "StroitelnyProdajnik\\Service\\CachedDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:17:40.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuilderPodContext.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\StroitelnyProdajnik\\Data\\BuilderPodContext.cs",
+              "RelativeDocumentMoniker": "StroitelnyProdajnik\\Data\\BuilderPodContext.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\StroitelnyProdajnik\\Data\\BuilderPodContext.cs",
+              "RelativeToolTip": "StroitelnyProdajnik\\Data\\BuilderPodContext.cs",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAgwN4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:15:03.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\StroitelnyProdajnik\\Program.cs",
+              "RelativeDocumentMoniker": "StroitelnyProdajnik\\Program.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\Lab3\\StroitelnyProdajnik\\StroitelnyProdajnik\\Program.cs",
+              "RelativeToolTip": "StroitelnyProdajnik\\Program.cs",
+              "ViewState": "AQIAAJYBAAAAAAAAAAAuwLgBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:20:40.579Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
