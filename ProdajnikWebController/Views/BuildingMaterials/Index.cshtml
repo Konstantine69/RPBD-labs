@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ProdajnikWebController.Models.BuildingMaterial>
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaterialName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Manufacturer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PurchaseVolume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CertificateNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CertificateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaterialName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PurchaseVolume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CertificateNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CertificateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Photo)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

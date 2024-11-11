@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ProdajnikWebController.Models.ConstructionObject>
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ObjectName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GeneralContractor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContractDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WorkList)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommissioningDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ObjectName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GeneralContractor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContractDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WorkList)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommissioningDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Photo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.CustomerId)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

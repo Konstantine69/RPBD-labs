@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ProdajnikWebController.Models.WorkType>
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LicenseNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LicenseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LicenseExpirationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassifierCode)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LicenseNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LicenseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LicenseExpirationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClassifierCode)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>
