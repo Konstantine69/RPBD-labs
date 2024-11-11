@@ -1,0 +1,450 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\controllers\\constructionobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\controllers\\constructionobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\controllers\\buildingmaterialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\controllers\\buildingmaterialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\views\\objectmaterials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\views\\objectmaterials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\views\\constructionobjects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\views\\constructionobjects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\views\\buildingmaterials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\views\\buildingmaterials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\service\\cacheddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\service\\cacheddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\controllers\\worktypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\controllers\\worktypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\controllers\\objectworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\controllers\\objectworkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\controllers\\objectmaterialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\controllers\\objectmaterialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\data\\prodajnikcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\data\\prodajnikcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\models\\worktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\models\\worktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\models\\objectwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\models\\objectwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\models\\objectmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\models\\objectmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\models\\constructionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\models\\constructionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\models\\buildingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\models\\buildingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\middleware\\dbinitializermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\middleware\\dbinitializermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|d:\\study\\datbas2\\lab4\\prodajnikwebcontroller\\prodajnikwebcontroller\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C9CD5F4-60AF-41A1-B853-B1A012513A96}|ProdajnikWebController\\ProdajnikWebController.csproj|solutionrelative:prodajnikwebcontroller\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 19,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\ObjectMaterials\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Views\\ObjectMaterials\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\ObjectMaterials\\Index.cshtml",
+              "RelativeToolTip": "ProdajnikWebController\\Views\\ObjectMaterials\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T21:40:25.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "ProdajnikWebController\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T21:40:17.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\ConstructionObjects\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Views\\ConstructionObjects\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\ConstructionObjects\\Index.cshtml",
+              "RelativeToolTip": "ProdajnikWebController\\Views\\ConstructionObjects\\Index.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAIwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T21:40:04.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\BuildingMaterials\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Views\\BuildingMaterials\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\BuildingMaterials\\Index.cshtml",
+              "RelativeToolTip": "ProdajnikWebController\\Views\\BuildingMaterials\\Index.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAIwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T21:39:53.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuildingMaterialsController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\BuildingMaterialsController.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Controllers\\BuildingMaterialsController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\BuildingMaterialsController.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Controllers\\BuildingMaterialsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:16:42.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConstructionObjectsController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\ConstructionObjectsController.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Controllers\\ConstructionObjectsController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\ConstructionObjectsController.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Controllers\\ConstructionObjectsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:12:20.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CachedDataService.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Service\\CachedDataService.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Service\\CachedDataService.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Service\\CachedDataService.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Service\\CachedDataService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAF0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:12:47.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProdajnikWebController\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T20:59:25.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProdajnikWebController\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T21:29:13.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Data\\DbInitializer.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Data\\DbInitializer.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAUwG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:13:12.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ObjectMaterialsController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\ObjectMaterialsController.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Controllers\\ObjectMaterialsController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\ObjectMaterialsController.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Controllers\\ObjectMaterialsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:05:40.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ObjectWorksController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\ObjectWorksController.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Controllers\\ObjectWorksController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\ObjectWorksController.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Controllers\\ObjectWorksController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:17:19.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:58:08.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WorkTypesController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\WorkTypesController.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Controllers\\WorkTypesController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Controllers\\WorkTypesController.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Controllers\\WorkTypesController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:49:49.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProdajnikContext.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Data\\ProdajnikContext.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Data\\ProdajnikContext.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Data\\ProdajnikContext.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Data\\ProdajnikContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAMwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:39:56.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WorkType.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\WorkType.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Models\\WorkType.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\WorkType.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Models\\WorkType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:37:18.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Models\\Customer.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\Customer.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:37:02.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BuildingMaterial.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\BuildingMaterial.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Models\\BuildingMaterial.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\BuildingMaterial.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Models\\BuildingMaterial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:36:48.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ObjectWork.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\ObjectWork.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Models\\ObjectWork.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\ObjectWork.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Models\\ObjectWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:31:13.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConstructionObject.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\ConstructionObject.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Models\\ConstructionObject.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\ConstructionObject.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Models\\ConstructionObject.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:00:01.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Program.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Program.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Program.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:11:32.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ObjectMaterial.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\ObjectMaterial.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Models\\ObjectMaterial.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\ObjectMaterial.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Models\\ObjectMaterial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:59:53.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DbInitializerMiddleware.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Middleware\\DbInitializerMiddleware.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Middleware\\DbInitializerMiddleware.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Middleware\\DbInitializerMiddleware.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Middleware\\DbInitializerMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:06:33.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ProdajnikWebController\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab4\\ProdajnikWebController\\ProdajnikWebController\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ProdajnikWebController\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:10:22.49Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
