@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ProdajnikWeb.Models.ObjectWork>
+
+@{
+    Layout = "_Layout";
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!-- Форма фильтрации -->
+<form method="get" asp-action="Index">
+    <div>
+        <label>Object Name:</label>
+        <input type="text" name="objectNameFilter" value="@ViewBag.ObjectNameFilter" />
+    </div>
+    <div>
+        <label>Classifier Code:</label>
+        <input type="text" name="classifierCodeFilter" value="@ViewBag.ClassifierCodeFilter" />
+    </div>
+    <button type="submit">Filter</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Object.ObjectName)</th>
+            <th>@Html.DisplayNameFor(model => model.WorkType.ClassifierCode)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Object.ObjectName)</td>
+                <td>@Html.DisplayFor(modelItem => item.WorkType.ClassifierCode)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ObjectWorkId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ObjectWorkId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ObjectWorkId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Пагинация -->
+@{
+    ViewData["CurrentPage"] = ViewBag.CurrentPage;
+    ViewData["PageSize"] = ViewBag.PageSize;
+    ViewData["TotalItems"] = ViewBag.TotalItems;
+    ViewData["ActionName"] = "Index"; // Название действия
+    ViewData["ControllerName"] = "ObjectWorks"; // Название контроллера
+}
+<partial name="_Pagination" />

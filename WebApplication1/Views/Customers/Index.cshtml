@@ -1,0 +1,60 @@
+﻿@model IEnumerable<ProdajnikWeb.Models.Customer>
+
+@{
+    Layout = "_Layout";
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!-- Форма фильтрации -->
+<form method="get" asp-action="Index">
+    <div>
+        <label>Organization Name:</label>
+        <input type="text" name="organizationNameFilter" value="@ViewBag.OrganizationNameFilter" />
+    </div>
+    <div>
+        <label>City:</label>
+        <input type="text" name="cityFilter" value="@ViewBag.CityFilter" />
+    </div>
+    <button type="submit">Filter</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.OrganizationName)</th>
+            <th>@Html.DisplayNameFor(model => model.City)</th>
+            <th>@Html.DisplayNameFor(model => model.Address)</th>
+            <th>@Html.DisplayNameFor(model => model.PhoneNumber)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.OrganizationName)</td>
+                <td>@Html.DisplayFor(modelItem => item.City)</td>
+                <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CustomerId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CustomerId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CustomerId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Пагинация -->
+@{
+    ViewData["CurrentPage"] = ViewBag.CurrentPage;
+    ViewData["PageSize"] = ViewBag.PageSize;
+    ViewData["TotalItems"] = ViewBag.TotalItems;
+    ViewData["ActionName"] = "Index"; // Название действия
+    ViewData["ControllerName"] = "Customers"; // Название контроллера
+}
+<partial name="_Pagination" />

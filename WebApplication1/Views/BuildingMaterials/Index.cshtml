@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ProdajnikWeb.Models.BuildingMaterial>
+
+@{
+    Layout = "_Layout";
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!-- Форма фильтрации -->
+<form method="get" asp-action="Index">
+    <div>
+        <label>Material Name:</label>
+        <input type="text" name="materialNameFilter" value="@ViewBag.MaterialNameFilter" />
+    </div>
+    <div>
+        <label>Manufacturer:</label>
+        <input type="text" name="manufacturerFilter" value="@ViewBag.ManufacturerFilter" />
+    </div>
+    <button type="submit">Filter</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.MaterialName)</th>
+            <th>@Html.DisplayNameFor(model => model.Manufacturer)</th>
+            <th>@Html.DisplayNameFor(model => model.PurchaseVolume)</th>
+            <th>@Html.DisplayNameFor(model => model.CertificateNumber)</th>
+            <th>@Html.DisplayNameFor(model => model.CertificateDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Photo)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.MaterialName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Manufacturer)</td>
+                <td>@Html.DisplayFor(modelItem => item.PurchaseVolume)</td>
+                <td>@Html.DisplayFor(modelItem => item.CertificateNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.CertificateDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.Photo)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MaterialId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.MaterialId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.MaterialId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Пагинация -->
+@{
+    ViewData["CurrentPage"] = ViewBag.CurrentPage;
+    ViewData["PageSize"] = ViewBag.PageSize;
+    ViewData["TotalItems"] = ViewBag.TotalItems;
+    ViewData["ActionName"] = "Index"; // Название действия
+    ViewData["ControllerName"] = "BuildingMaterials"; // Название контроллера
+}
+<partial name="_Pagination" />

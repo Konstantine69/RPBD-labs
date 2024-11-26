@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ProdajnikWeb.Models.ConstructionObject>
+
+@{
+    Layout = "_Layout";
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!-- Форма фильтрации -->
+<form method="get" asp-action="Index">
+    <div>
+        <label>Object Name:</label>
+        <input type="text" name="objectNameFilter" value="@ViewBag.ObjectNameFilter" />
+    </div>
+    <div>
+        <label>General Contractor:</label>
+        <input type="text" name="contractorFilter" value="@ViewBag.ContractorFilter" />
+    </div>
+    <button type="submit">Filter</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ObjectName)</th>
+            <th>@Html.DisplayNameFor(model => model.GeneralContractor)</th>
+            <th>@Html.DisplayNameFor(model => model.ContractDate)</th>
+            <th>@Html.DisplayNameFor(model => model.WorkList)</th>
+            <th>@Html.DisplayNameFor(model => model.DeliveryDate)</th>
+            <th>@Html.DisplayNameFor(model => model.CommissioningDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Photo)</th>
+            <th>@Html.DisplayNameFor(model => model.Customer)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ObjectName)</td>
+                <td>@Html.DisplayFor(modelItem => item.GeneralContractor)</td>
+                <td>@Html.DisplayFor(modelItem => item.ContractDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.WorkList)</td>
+                <td>@Html.DisplayFor(modelItem => item.DeliveryDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.CommissioningDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.Photo)</td>
+                <td>@Html.DisplayFor(modelItem => item.Customer.OrganizationName)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ObjectId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ObjectId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ObjectId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Пагинация -->
+@{
+    ViewData["CurrentPage"] = ViewBag.CurrentPage;
+    ViewData["PageSize"] = ViewBag.PageSize;
+    ViewData["TotalItems"] = ViewBag.TotalItems;
+    ViewData["ActionName"] = "Index"; // Название действия
+    ViewData["ControllerName"] = "ConstructionObjects"; // Название контроллера
+}
+<partial name="_Pagination" />
