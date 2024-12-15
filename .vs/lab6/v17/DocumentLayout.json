@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Datbas2\\lab6\\lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9174A412-7D13-48D5-A466-A14955F6D0BC}|TestProject2\\TestProject2.csproj|d:\\study\\datbas2\\lab6\\lab6\\testproject2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9174A412-7D13-48D5-A466-A14955F6D0BC}|TestProject2\\TestProject2.csproj|solutionrelative:testproject2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\views\\constructionobj\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\views\\constructionobj\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\models\\constructionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\models\\constructionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\models\\buildingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\models\\buildingmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\controllers\\consructionobjapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\controllers\\consructionobjapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\controllers\\constructionobjcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\controllers\\constructionobjcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\models\\objectmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\models\\objectmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\models\\objectwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\models\\objectwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\models\\worktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\models\\worktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\controllers\\buildingmaterialsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\controllers\\buildingmaterialsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|d:\\study\\datbas2\\lab6\\lab6\\lab6\\data\\prodajnikcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1460BD08-0066-4F9F-9996-6262346219C4}|lab6\\lab6.csproj|solutionrelative:lab6\\data\\prodajnikcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\TestProject2\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject2\\UnitTest1.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\TestProject2\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject2\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:24:17.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Views\\ConstructionObj\\Index.cshtml",
+              "RelativeDocumentMoniker": "lab6\\Views\\ConstructionObj\\Index.cshtml",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Views\\ConstructionObj\\Index.cshtml",
+              "RelativeToolTip": "lab6\\Views\\ConstructionObj\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T17:57:10.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuildingMaterial.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\BuildingMaterial.cs",
+              "RelativeDocumentMoniker": "lab6\\Models\\BuildingMaterial.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\BuildingMaterial.cs",
+              "RelativeToolTip": "lab6\\Models\\BuildingMaterial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:37:01.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConstructionObject.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\ConstructionObject.cs",
+              "RelativeDocumentMoniker": "lab6\\Models\\ConstructionObject.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\ConstructionObject.cs",
+              "RelativeToolTip": "lab6\\Models\\ConstructionObject.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:37:22.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "lab6\\Models\\Customer.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\Customer.cs",
+              "RelativeToolTip": "lab6\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:37:51.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Program.cs",
+              "RelativeDocumentMoniker": "lab6\\Program.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Program.cs",
+              "RelativeToolTip": "lab6\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:44:59.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObjectMaterial.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\ObjectMaterial.cs",
+              "RelativeDocumentMoniker": "lab6\\Models\\ObjectMaterial.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\ObjectMaterial.cs",
+              "RelativeToolTip": "lab6\\Models\\ObjectMaterial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:39:26.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsructionObjAPIController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Controllers\\ConsructionObjAPIController.cs",
+              "RelativeDocumentMoniker": "lab6\\Controllers\\ConsructionObjAPIController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Controllers\\ConsructionObjAPIController.cs",
+              "RelativeToolTip": "lab6\\Controllers\\ConsructionObjAPIController.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAiwIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:26:34.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerAPIController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Controllers\\CustomerAPIController.cs",
+              "RelativeDocumentMoniker": "lab6\\Controllers\\CustomerAPIController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Controllers\\CustomerAPIController.cs",
+              "RelativeToolTip": "lab6\\Controllers\\CustomerAPIController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAiwH4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:40:40.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConstructionObjController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Controllers\\ConstructionObjController.cs",
+              "RelativeDocumentMoniker": "lab6\\Controllers\\ConstructionObjController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Controllers\\ConstructionObjController.cs",
+              "RelativeToolTip": "lab6\\Controllers\\ConstructionObjController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:23:33.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ObjectWork.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\ObjectWork.cs",
+              "RelativeDocumentMoniker": "lab6\\Models\\ObjectWork.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\ObjectWork.cs",
+              "RelativeToolTip": "lab6\\Models\\ObjectWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:24:05.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WorkType.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\WorkType.cs",
+              "RelativeDocumentMoniker": "lab6\\Models\\WorkType.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Models\\WorkType.cs",
+              "RelativeToolTip": "lab6\\Models\\WorkType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:24:06.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BuildingMaterialsAPIController.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Controllers\\BuildingMaterialsAPIController.cs",
+              "RelativeDocumentMoniker": "lab6\\Controllers\\BuildingMaterialsAPIController.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Controllers\\BuildingMaterialsAPIController.cs",
+              "RelativeToolTip": "lab6\\Controllers\\BuildingMaterialsAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:56:11.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProdajnikContext.cs",
+              "DocumentMoniker": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Data\\ProdajnikContext.cs",
+              "RelativeDocumentMoniker": "lab6\\Data\\ProdajnikContext.cs",
+              "ToolTip": "D:\\Study\\Datbas2\\lab6\\lab6\\lab6\\Data\\ProdajnikContext.cs",
+              "RelativeToolTip": "lab6\\Data\\ProdajnikContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:48:34.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 179,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление строительными объектами</title>
+</head>
+<body>
+    <h1>Управление строительными объектами</h1>
+
+    <h2>Добавить новый строительный объект</h2>
+    <form id="createObjectForm">
+        <label for="objectName">Название объекта:</label>
+        <input type="text" id="objectName" required>
+        <br>
+        <label for="customerId">ID заказчика:</label>
+        <input type="number" id="customerId" required>
+        <br>
+        <label for="generalContractor">Генеральный подрядчик:</label>
+        <input type="text" id="generalContractor" required>
+        <br>
+        <label for="contractDate">Дата заключения контракта:</label>
+        <input type="date" id="contractDate" required>
+        <br>
+        <label for="workList">Перечень работ:</label>
+        <textarea id="workList"></textarea>
+        <br>
+        <label for="deliveryDate">Дата сдачи:</label>
+        <input type="date" id="deliveryDate">
+        <br>
+        <label for="commissioningDate">Дата ввода в эксплуатацию:</label>
+        <input type="date" id="commissioningDate">
+        <br>
+        <button type="submit">Добавить</button>
+    </form>
+
+    <h2>Список строительных объектов</h2>
+    <table id="objectsTable" border="1">
+        <tr>
+            <th>ID</th>
+            <th>Название объекта</th>
+            <th>Заказчик</th>
+            <th>Генеральный подрядчик</th>
+            <th>Дата контракта</th>
+            <th>Перечень работ</th>
+            <th>Дата сдачи</th>
+            <th>Дата ввода в эксплуатацию</th>
+            <th>Действия</th>
+        </tr>
+    </table>
+
+    <script>
+        // Функция для получения списка объектов
+        function getObjects() {
+            fetch('/api/constructionobjectsapi') // API URL для получения списка объектов
+                .then(response => response.json())
+                .then(data => {
+                    const table = document.getElementById('objectsTable');
+                    table.innerHTML = `
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Название объекта</th>
+                                    <th>Заказчик</th>
+                                    <th>Генеральный подрядчик</th>
+                                    <th>Дата контракта</th>
+                                    <th>Перечень работ</th>
+                                    <th>Дата сдачи</th>
+                                    <th>Дата ввода в эксплуатацию</th>
+                                    <th>Действия</th>
+                                </tr>
+                            `;
+                    data.forEach(obj => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                                    <td>${obj.objectId}</td>
+                                    <td>${obj.objectName}</td>
+                                    <td>${obj.customer ? obj.customer.organizationName : ''}</td>
+                                    <td>${obj.generalContractor}</td>
+                                    <td>${obj.contractDate}</td>
+                                    <td>${obj.workList || ''}</td>
+                                    <td>${obj.deliveryDate || ''}</td>
+                                    <td>${obj.commissioningDate || ''}</td>
+                                    <td>
+                                        <button onclick="editObject(${obj.objectId}, '${obj.objectName}', '${obj.customer ? obj.customer.customerId : ''}', '${obj.generalContractor}', '${obj.contractDate}', '${obj.workList || ''}', '${obj.deliveryDate || ''}', '${obj.commissioningDate || ''}')">Редактировать</button>
+                                        <button onclick="deleteObject(${obj.objectId})">Удалить</button>
+                                    </td>
+                                `;
+                        table.appendChild(row);
+                    });
+                });
+        }
+
+        // Функция для создания нового объекта
+        function createObject(event) {
+            event.preventDefault();
+            const objectName = document.getElementById('objectName').value;
+            const customerId = document.getElementById('customerId').value;
+            const generalContractor = document.getElementById('generalContractor').value;
+            const contractDate = document.getElementById('contractDate').value;
+            const workList = document.getElementById('workList').value;
+            const deliveryDate = document.getElementById('deliveryDate').value;
+            const commissioningDate = document.getElementById('commissioningDate').value;
+
+            fetch('/api/constructionobjectsapi', { // API URL для создания нового объекта
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    objectName: objectName,
+                    customerId: customerId,
+                    generalContractor: generalContractor,
+                    contractDate: contractDate,
+                    workList: workList,
+                    deliveryDate: deliveryDate,
+                    commissioningDate: commissioningDate
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Объект добавлен:', data);
+                    document.getElementById('createObjectForm').reset();
+                    getObjects();
+                });
+        }
+
+        // Функция для удаления объекта
+        function deleteObject(objectId) {
+            fetch(`/api/constructionobjectsapi/${objectId}`, { // API URL для удаления объекта
+                method: 'DELETE'
+            })
+                .then(response => {
+                    console.log('Объект удален:', objectId);
+                    getObjects();
+                });
+        }
+
+        // Функция для редактирования объекта
+        function editObject(objectId, objectName, customerId, generalContractor, contractDate, workList, deliveryDate, commissioningDate) {
+            document.getElementById('objectName').value = objectName;
+            document.getElementById('customerId').value = customerId;
+            document.getElementById('generalContractor').value = generalContractor;
+            document.getElementById('contractDate').value = contractDate;
+            document.getElementById('workList').value = workList;
+            document.getElementById('deliveryDate').value = deliveryDate;
+            document.getElementById('commissioningDate').value = commissioningDate;
+
+            const updateButton = document.createElement('button');
+            updateButton.textContent = 'Обновить';
+            updateButton.onclick = function () {
+                updateObject(objectId);
+            };
+
+            const form = document.getElementById('createObjectForm');
+            const submitButton = form.querySelector('[type="submit"]');
+            if (submitButton) {
+                form.removeChild(submitButton);
+            }
+            form.appendChild(updateButton);
+        }
+
+        // Функция для обновления объекта
+        function updateObject(objectId) {
+            const updatedObject = {
+                objectId: objectId,
+                objectName: document.getElementById('objectName').value,
+                customerId: document.getElementById('customerId').value,
+                generalContractor: document.getElementById('generalContractor').value,
+                contractDate: document.getElementById('contractDate').value,
+                workList: document.getElementById('workList').value,
+                deliveryDate: document.getElementById('deliveryDate').value,
+                commissioningDate: document.getElementById('commissioningDate').value
+            };
+
+            fetch(`/api/constructionobjectsapi/${objectId}`, { // API URL для обновления объекта
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(updatedObject)
+            })
+                .then(response => {
+                    console.log('Объект обновлен:', updatedObject);
+                    getObjects();
+                });
+        }
+
+        // Загрузка списка объектов при загрузке страницы
+        document.addEventListener('DOMContentLoaded', function () {
+            getObjects();
+        });
+
+        // Обработчик отправки формы
+        const createObjectForm = document.getElementById('createObjectForm');
+        createObjectForm.addEventListener('submit', createObject);
+    </script>
+</body>
+</html>
